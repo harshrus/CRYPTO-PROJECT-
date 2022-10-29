@@ -22,7 +22,7 @@ const CoinPage = () => {
 
   useEffect(() => {
     fetchCoin();
-  }, []);
+  });
 
   const useStyles = makeStyles((theme) => ({
     container: {
